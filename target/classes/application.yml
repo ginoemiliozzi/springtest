@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://marianob.gpl.com.ar;databaseName=ARMIGTest
+    username: SA
+    password: Termo1320
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServerDialect
